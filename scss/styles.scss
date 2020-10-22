@@ -1,21 +1,21 @@
 @charset "utf-8";
 
 // Abstracts
-@use 'abstracts/variables';
+@import 'abstracts/variables';
 
 // Base
-@use 'base/reset';
-@use 'base/type';
+@import 'base/reset';
+@import 'base/type';
 
 // Components
-@use 'components/buttons';
+@import 'components/buttons';
 
 // Layouts
-@use 'layouts/nav';
-@use 'layouts/body';
-@use 'layouts/footer';
+@import 'layouts/nav';
+@import 'layouts/body';
+@import 'layouts/footer';
 
 // Pages
-@use 'pages/about';
-@use 'pages/home';
-@use 'pages/projects';
+@import 'pages/about';
+@import 'pages/home';
+@import 'pages/projects';

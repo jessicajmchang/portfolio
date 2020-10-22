@@ -1,0 +1,16 @@
+body {
+    font-family: $bodyFont;
+    color: black;
+}
+
+h1, 
+h2,
+h3 {
+    font-family: $titleFont;
+}
+
+h2,
+h3 {
+    font-size: 2em;
+    text-align: center;
+}

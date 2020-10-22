@@ -1,14 +1,15 @@
-/* box-sizing reset */
+/* Box Sizing Reset */
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-/* end box-sizing reset */
 /* Img reset */
 img {
   max-width: 100%;
@@ -19,9 +20,34 @@ body {
   overflow-x: hidden;
 }
 
-body, h1, h2, h3, p {
+body,
+h1,
+h2,
+h3,
+p {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Baskerville", sans-serif;
+}
+
+h2,
+h3 {
+  font-size: 2em;
+  text-align: center;
+}
+
+body {
+  background-color: red;
 }
 
 /*# sourceMappingURL=styles.css.map */

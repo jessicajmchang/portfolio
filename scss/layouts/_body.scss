@@ -1,4 +1,11 @@
-body {
-    background-color: red;
-    color: white;
+p {
+    font-family: $bodyFont;
 }
+
+.portfolio-text {
+    padding-bottom: 15px;
+}
+
+// .wrapper {
+//     background-image: url(images/background-portfolio.svg);
+// }

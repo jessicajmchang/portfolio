@@ -1,0 +1,22 @@
+.skills-btn {
+    padding: 10px;
+    margin-left: 2px;
+    margin-bottom: 8px;
+    font-family: $bodyFont;
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid #8B9476;
+}
+
+.website,
+.details {
+    padding: 8px 15px 8px 15px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+    font-family: $bodyFont;
+    color: $accentColor;
+    background-color: #9E693E;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}

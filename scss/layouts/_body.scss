@@ -1,11 +1,11 @@
 body {
-    height: 100vh;
-}
+        background-image: url("../images/background-line.png");
+        background-size: 1300px;
+        background-position: right 35% bottom 80%;
+        background-repeat: no-repeat;
+        height: 100vh;
 
-p {
-    font-family: $bodyFont;
-}
-
-.portfolio-text {
-    padding-bottom: 15px;
+    p {
+        font-family: $bodyFont;
+    }
 }

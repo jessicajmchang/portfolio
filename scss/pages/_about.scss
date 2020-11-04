@@ -2,26 +2,65 @@ html {
     height: 100vh;
 }
 
-.about-title {
-    text-align: left;
-    font-size: 1.5em;
-    display: block;
-    padding-left: 10px;
+// About Me Section Styles
+.main-section {
+    padding: 30px 30px 10px 30px;
 }
 
-.about {
-    padding: 10px 10px;
-    text-align: left;
+.about-me-text {
+    padding-top: 10px;
+    font-size: 1em;
+    line-height: $lineHeight;
 }
 
-.picture-splash {
-   position: relative;
-   text-align: center;
+// Background Section Styles
+.background {
+    padding: 15px 30px 10px 30px;
+    font-size: 1em;
+    line-height: $lineHeight;
 }
 
-// .about {
-//     position: absolute;
-//     top: 40%;
-//     left: 60%;
-//     transform: translate(-50%, -50%);
-// }
+.company-title {
+    font-weight: bold;
+    padding: 20px 0px 5px 0px;
+}
+
+.job-title {
+    font-style: italic;
+    padding: 5px 0px 5px 0px;
+}
+
+.description { 
+    padding: 5px 0px 5px 0px;
+}
+
+// Skills Section Styles 
+.skills-title {
+    padding: 10px 30px 10px 30px;
+    line-height: $lineHeight;
+}
+
+.skills-design,
+.skills-dev {
+    padding: 5px 30px 10px 30px;
+    font-weight: bold;
+}
+
+.skills-text {
+
+    ul {
+        list-style: none;
+        padding: 0px 30px 10px 30px;
+        line-height: $lineHeight;
+        margin: 5px;
+    }
+}
+
+// Things I Love Styles
+.things-title {
+    padding: 10px 30px 10px 30px;
+}
+
+.things-text {
+    padding: 10px 30px 20px 30px;
+}

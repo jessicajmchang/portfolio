@@ -28,6 +28,11 @@ nav {
     display: block;
 }
 
+// Menu Icon
+.menu-icon {
+    color: $accentColor;
+}
+
 // Media Queries
 @media (min-width: 630px) {
     // nav {

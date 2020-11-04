@@ -1,0 +1,30 @@
+.wrapper-wallpaper {
+  background-image: url("../images/background-portfolio.svg");
+  background-size: 1200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+.about-splash {
+  border: 1px solid $footerColor;
+  background-color: $footerColor;
+  color: white;
+  width: 250px;
+  padding: 40px 20px 40px 20px;
+  margin: 50px auto;
+  border-radius: 2px;
+}
+
+.home-title,
+.splash-title {
+    text-align: center;
+    line-height: 1.2;
+}
+
+.about-splash-text {
+    padding: 15px;
+    margin-bottom: 10px;
+    line-height: $lineHeight;
+}

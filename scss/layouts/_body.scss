@@ -1,3 +1,7 @@
+body {
+    height: 100vh;
+}
+
 p {
     font-family: $bodyFont;
 }
@@ -5,7 +9,3 @@ p {
 .portfolio-text {
     padding-bottom: 15px;
 }
-
-// .wrapper {
-//     background-image: url(images/background-portfolio.svg);
-// }

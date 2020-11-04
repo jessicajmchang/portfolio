@@ -1,7 +1,9 @@
 footer {
     background-color: $footerColor;
     padding: 30px;
-    color: white;
+    color: $accentColor;
+    bottom: 0;
+    height: 10vh;
     
     ul {
         margin: 0;

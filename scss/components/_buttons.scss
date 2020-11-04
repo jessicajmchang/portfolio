@@ -1,3 +1,5 @@
+
+// Projects Section Buttons
 .skills-btn {
     padding: 10px;
     margin-left: 2px;
@@ -9,8 +11,11 @@
 }
 
 .website,
-.details {
-    padding: 8px 15px 8px 15px;
+.details,
+.about-me,
+.contact,
+.website-evergreen {
+    padding: 10px 15px 10px 15px;
     margin-left: 5px;
     margin-bottom: 8px;
     font-family: $bodyFont;
@@ -19,4 +24,39 @@
     border: none;
     border-radius: 5px;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: $accentColor;
+    text-decoration: none;
+}
+
+.about-me {
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.buttons-more {
+    text-align: center;
+    cursor: pointer;
+}
+
+.skills {
+    text-align: center;
+}
+
+.website-evergreen {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.contact a {
+    text-transform: uppercase;
+    color: $accentColor;
+    text-decoration: none;
+    cursor: pointer;
 }

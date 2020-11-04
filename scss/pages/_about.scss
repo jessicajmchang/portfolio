@@ -1,0 +1,27 @@
+html {
+    height: 100vh;
+}
+
+.about-title {
+    text-align: left;
+    font-size: 1.5em;
+    display: block;
+    padding-left: 10px;
+}
+
+.about {
+    padding: 10px 10px;
+    text-align: left;
+}
+
+.picture-splash {
+   position: relative;
+   text-align: center;
+}
+
+// .about {
+//     position: absolute;
+//     top: 40%;
+//     left: 60%;
+//     transform: translate(-50%, -50%);
+// }

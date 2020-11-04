@@ -1,0 +1,34 @@
+.response,
+.team,
+.tech {
+    li {
+        list-style: none;
+    }
+
+    ul {
+        padding-left: 8px;
+    }
+}
+
+.evergreen-title,
+.title-evergreen {
+    font-size: 1.8em;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.title-evergreen {
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.evergreen-text p,
+.design p,
+.development p {
+    padding: 10px;
+}
+
+.code-snippet {
+    text-align: center;
+}

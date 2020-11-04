@@ -1,17 +1,25 @@
-h1 {
+.home-title,
+.splash-title {
     text-align: center;
+}
+
+.about-splash-text {
+    padding: 15px;
 }
 
 .home {
     background-color: white;
-    text-align: center;
     width: 100%;
     margin: 0 auto;
     max-width: 500px;
 }
 
+.projects {
+    text-align: center;
+}
+
 .about-splash {
-    background-image: url(../images/hero-image.jpg);
+    // background-image: url(../images/hero-image.jpg);
 }
 
 .evergreen-law,
@@ -28,11 +36,44 @@ h1 {
     }
 }
 
-.portfolio {
-    margin-bottom: 10px;
+.portfolio,
+.hive,
+.evergreen-law,
+.todo {
+    margin-bottom: 30px;
 }
 
 .text,
 .home-title {
     padding-bottom: 10px;
+    text-align: center;
 }
+
+// .nav-icon {
+//     margin: 1em;
+//     width: 40px;
+//   }
+  
+//   .nav-icon:after, 
+//   .nav-icon:before, 
+//   .nav-icon div {
+//     background-color: #fff;
+//     border-radius: 3px;
+//     content: '';
+//     display: block;
+//     height: 5px;
+//     margin: 7px 0;
+//     transition: all .2s ease-in-out;
+//   }
+
+//   .nav-icon:hover:before {
+//     transform: translateY(12px) rotate(135deg);
+//   }
+  
+//   .nav-icon:hover:after {
+//     transform: translateY(-12px) rotate(-135deg);
+//   }
+  
+//   .nav-icon:hover div {
+//     transform: scale(0);
+//   }

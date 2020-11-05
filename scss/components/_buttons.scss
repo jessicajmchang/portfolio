@@ -1,4 +1,3 @@
-
 // Skills Buttons
 .skills-btn {
     padding: 10px;
@@ -8,69 +7,72 @@
     text-transform: uppercase;
     background-color: white;
     border: 1px solid #8B9476;
-}
-
-.website,
-.details,
-.about-me,
-.contact,
-.website-evergreen {
-    padding: 15px 15px 15px 15px;
-    margin-left: 5px;
-    margin-bottom: 8px;
-    font-family: $bodyFont;
-    color: $accentColor;
-    background-color: #9E693E;
-    border: 1px solid black;
-    border-radius: 5px;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-a:visited,
-a:active {
-    color: $accentColor;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: $headerColor;
-}
-
-.about-me {
-    margin-bottom: 50px;
-    cursor: pointer;
-}
-
-.buttons-more {
-    text-align: center;
-    cursor: pointer;
-}
-
-.website-evergreen {
-    margin-left: 15px;
-    cursor: pointer;
-}
-
-.contact a {
-    text-transform: uppercase;
-    color: $accentColor;
-    text-decoration: none;
-    cursor: pointer;
+    overflow: word-break;
 }
 
 // About Page Buttons
-.about-page-link {
-    background-color: $btnColor;
+.about-page-link,
+.eg-page-link,
+.website-link,
+.hive-page-link {
+    background-color: $hoverColor;
     color: $accentColor;
     padding: 1em 1.5em;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 3px;
     display: inline-block;
-    text-align: left;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.about-me-link {
+    background-color: $brownColor;
+    color: $accentColor;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
 }
 
 .about-page-button {
     padding-left: 30px;
+
+    a {
+        text-align: center;
+    }
 }
+
+// Projects Page Buttons
+.btn {
+    padding: 0.8rem;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: $btnColor;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background-color: $hoverColor;
+  }
+ 
+  a:visited, 
+  a:active,
+  a:link {
+      color: $lightColor;
+  }

@@ -1,4 +1,9 @@
-html {
+// About Page Background
+.aboutpage-splash {
+    background-image: url("../images/background-line.png");
+    background-size: 1920px;
+    background-position: right 50% bottom 80%;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
@@ -15,14 +20,14 @@ html {
 
 // Background Section Styles
 .background {
-    padding: 15px 30px 10px 30px;
     font-size: 1em;
     line-height: $lineHeight;
+    margin-top: 15px;
 }
 
 .company-title {
     font-weight: bold;
-    padding: 20px 0px 5px 0px;
+    padding: 10px 0px 5px 0px;
 }
 
 .job-title {
@@ -36,31 +41,54 @@ html {
 
 // Skills Section Styles 
 .skills-title {
-    padding: 10px 30px 10px 30px;
     line-height: $lineHeight;
+    margin-top: 15px;
 }
 
 .skills-design,
 .skills-dev {
-    padding: 5px 30px 10px 30px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .skills-text {
 
     ul {
         list-style: none;
-        padding: 0px 30px 10px 30px;
+        padding: 0;
         line-height: $lineHeight;
-        margin: 5px;
     }
 }
 
-// Things I Love Styles
-.things-title {
-    padding: 10px 30px 10px 30px;
+@media (min-width: 500px){
+    .about-page-link,
+    .eg-page-link,
+    .website-link,
+    .hive-page-link {
+        width: 50%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
-
-.things-text {
-    padding: 10px 30px 10px 30px;
+  
+@media (min-width: 800px){
+    .about-page-link,
+    .eg-page-link,
+    .website-link,
+    .hive-page-link {
+        width: 40%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+  
+@media (min-width: 1200px){
+    .about-page-link,
+    .eg-page-link,
+    .website-link,
+    .hive-page-link {
+        width: 30%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }

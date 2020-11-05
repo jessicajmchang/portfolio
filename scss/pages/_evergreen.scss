@@ -1,34 +1,38 @@
+// Responsibilities, Team Members, and Tech Stack Styles
 .response,
 .team,
 .tech {
+
     li {
         list-style: none;
     }
 
     ul {
-        padding-left: 8px;
+        padding: 0px 5px;
+    }
+
+    a {
+        color: $boldColor;
+        text-decoration: none;
     }
 }
 
-.evergreen-title,
-.title-evergreen {
-    font-size: 1.8em;
-    padding-bottom: 5px;
-    padding-left: 10px;
+// Title Styles
+.evergreen-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
 }
 
-.title-evergreen {
-    text-align: center;
-    padding-top: 10px;
+.evergreen-text {
 
+    h2 {
+        padding-bottom: 10px;
+    }
 }
 
-.evergreen-text p,
-.design p,
-.development p {
-    padding: 10px;
-}
-
-.code-snippet {
-    text-align: center;
+// Image Style
+.eg-mockup {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

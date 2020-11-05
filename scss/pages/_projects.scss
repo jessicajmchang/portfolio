@@ -1,23 +1,13 @@
-.home {
-    background-color: white;
-    width: 100%;
-    margin: 0 auto;
-    max-width: 500px;
+.projects-title {
+  text-align: left;
+  padding: 15px 30px 10px 20px;
 }
 
-.projects {
-    text-align: center;
+.pc-01, 
+.pc-02 {
+  padding: 10px 30px 10px 20px;
 }
-
-.portfolio,
-.hive,
-.evergreen-law,
-.todo {
-    margin-bottom: 30px;
-}
-
-.text,
-.home-title {
+.text {
     padding-bottom: 10px;
     text-align: center;
 }
@@ -33,24 +23,6 @@ img {
   vertical-align: middle;
 }
 
-.btn {
-  color: #ffffff;
-  padding: 0.8rem;
-  font-size: 14px;
-  text-transform: uppercase;
-  border-radius: 4px;
-  font-weight: 400;
-  display: block;
-  width: 100%;
-  cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: transparent;
-}
-
-.btn:hover {
-  background-color: rgba(255, 255, 255, 0.12);
-}
-
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -64,18 +36,6 @@ img {
   padding: 1rem;
 }
 
-@media (min-width: 40rem) {
-  .cards_item {
-    width: 50%;
-  }
-}
-
-@media (min-width: 56rem) {
-  .cards_item {
-    width: 33.3333%;
-  }
-}
-
 .card {
   background-color: white;
   border-radius: 0.25rem;
@@ -87,7 +47,6 @@ img {
 
 .card_content {
   padding: 30px 15px 30px 15px;
-//   background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
 }
 
 .card_title {
@@ -101,26 +60,23 @@ img {
 
 .card_text {
   color: black;
-  font-size: 0.875rem;
+  font-size: 1em;
   line-height: 1.5;
   margin-bottom: 1.25rem;    
   font-weight: 400;
   padding-top: 5px;
 }
 
-// Media Queries
-@media (min-width: 300px) {
-  .jess,
-  .main-splash {
-      display: none;
+// Card Media Queries
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
   }
+}
 
-  // .about-splash {
-  //   border-bottom: 1px solid rgba(80, 80, 80, 0.235);
-  //   padding-bottom: 30px;
-  // }
-
-  #projects {
-    padding-top: 20px;
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
   }
 }

@@ -4,7 +4,7 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  height: 100vh;
+  height: 100%;
 }
 
 *, 
@@ -13,7 +13,7 @@ html {
   box-sizing: inherit;
 }
   
-  /* Img reset */
+/* Img reset */
 img {
   max-width: 100%;
   height: auto;

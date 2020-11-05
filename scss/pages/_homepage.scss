@@ -1,30 +1,82 @@
 .wrapper-wallpaper {
-  background-image: url("../images/background-portfolio.svg");
-  background-size: 1200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
+  background: $accentColor;
 }
 
+.splash-title {
+  text-align: center;
+  line-height: 1.2;
+  color: $boldColor;
+  font-size: 1.7em;
+}
 
 .about-splash {
-  border: 1px solid $footerColor;
-  background-color: $footerColor;
-  color: white;
-  width: 250px;
-  padding: 40px 20px 40px 20px;
-  margin: 50px auto;
-  border-radius: 2px;
-}
-
-.home-title,
-.splash-title {
-    text-align: center;
-    line-height: 1.2;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding: 30px 10px 10px 10px;
+  line-height: $lineHeight;
 }
 
 .about-splash-text {
-    padding: 15px;
-    margin-bottom: 10px;
-    line-height: $lineHeight;
+  padding: 10px 10px 10px 10px;
+}
+
+// Media Queries 
+@media (min-width: 500px){
+  .splash-title {
+    font-size: 2em;
+  }
+  
+  .about-me-link {
+    width: 50%;
+    transform: translate(50%, 20%);
+    margin: 0;
+  }
+
+  .about-splash-text {
+    padding: 10px 30px 10px 30px;
+    word-break: break-word;
+  }
+}
+
+@media (min-width: 800px){
+  .splash-title {
+    font-size: 2em;
+  }
+  
+  .about-me-link {
+    width: 40%;
+    transform: translate(70%, 20%);
+    margin: 0;
+  }
+
+  .about-splash-text,
+  .about-splash {
+    padding: 10px 50px 10px 50px;
+    word-break: break-word;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px){
+  .splash-title {
+    font-size: 2em;
+  }
+  
+  .about-me-link {
+    width: 30%;
+    transform: translate(120%, 20%);
+    margin: 0;
+  }
+
+  .about-splash-text,
+  .about-splash {
+    padding: 10px 50px 10px 50px;
+    word-break: break-word;
+    font-size: 18px;
+  }
 }
